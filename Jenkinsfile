@@ -1,7 +1,7 @@
 stage 'build-pipeline-app'
 node {
-  sh  '
+  sh  '''
       echo multi && \
       echo line
-      '
+      '''
 }
