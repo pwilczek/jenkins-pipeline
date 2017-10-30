@@ -1,7 +1,7 @@
 stage 'build-pipeline-app'
 node {
   sh  '''
-      | echo multi\
-      | line
+      | echo "multi \
+      | X"
       '''.stripMargin()
 }
