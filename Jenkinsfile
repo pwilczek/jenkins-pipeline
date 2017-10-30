@@ -1,7 +1,7 @@
 stage 'build-pipeline-app'
 node {
-  sh  '''
-      | echo mult\|i &&
-      | echo lin\|e
-      '''.stripMargin()
+  sh  '
+      echo multi && \
+      echo line
+      '
 }
