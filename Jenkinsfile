@@ -3,5 +3,5 @@ node {
   sh  '''
       | echo multi
       | line
-      '''
+      '''.stripMargin()
 }
